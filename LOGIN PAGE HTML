@@ -1,0 +1,12 @@
+<!DOCTYPE>
+<HTML>
+<body>
+<h1>Login Page</h1>
+<form action="action_page.php">
+	<label for="uname">user name:</label><br>
+	<input type="text" id="uname" name="uname" value=""><br>
+	<label for="pwd">password:</label><br>
+	<input type="" id="pwd" name="pwd" value=""><br><br>
+	<input type="login" value="login">
+</form>
+<p>if you click this "login" button,the form-data will be sent to a page called "/action_page.php".</p>
