@@ -1,0 +1,22 @@
+abstract class Wildanimal {
+  abstract void animal();
+}
+class Hippopotamus extends Wildanimal {
+  void animal() {
+    System.out.println("my favorite animal Hippopotamus");
+  }
+}
+class Lion extends Wildanimal {
+  void animal() {
+    System.out.println("Lion is king of forest");
+  }
+}
+public class Main {
+  public static void main(String args[]) {
+    Wildanimal water = new Hippopotamus();
+    Wildanimal king = new Lion();
+
+    water.animal(); 
+    king.animal();  
+  }
+}
