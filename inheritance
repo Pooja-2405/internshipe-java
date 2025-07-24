@@ -1,0 +1,14 @@
+class student{  
+ float marks=500;  
+}  
+class Programmer extends student{  
+ int percentage=83;  
+}
+public class Main
+{
+ public static void main(String args[]){  
+   Programmer p=new Programmer();  
+   System.out.println("Programmer ma is:"+p.marks);  
+   System.out.println("percentage of Programmer is:"+p.percentage);  
+}  
+}  
