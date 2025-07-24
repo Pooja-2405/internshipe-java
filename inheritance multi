@@ -1,0 +1,26 @@
+class Animal {  
+    void eat() {
+        System.out.println("eating...");
+    }  
+}  
+
+class Dolphin extends Animal {  
+    void speak() {
+        System.out.println("speaking...");
+    }  
+}  
+
+class BabyDolphin extends Dolphin {  
+    void swim() {
+        System.out.println("swimming...");
+    }  
+}  
+
+public class Main {  
+    public static void main(String[] args) {  
+        BabyDolphin d = new BabyDolphin();  
+        d.speak();  
+        d.eat();  
+        d.swim();  
+    }  
+}
