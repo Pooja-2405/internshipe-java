@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+
+String friends= "pooja ponmozhi 99860884097636775963";
+    System.out.println("String: " + friends);
+    int length = friends.length();
+    System.out.println("Length: " + length);
+  }
+}
