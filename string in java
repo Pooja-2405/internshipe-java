@@ -1,0 +1,8 @@
+class Main {
+  public static void main(String[] args) {
+    
+    String self ="my name pooja";  
+
+    System.out.println(self);
+  }
+}
